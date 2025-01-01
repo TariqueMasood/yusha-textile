@@ -1,3 +1,133 @@
-.title {
-  padding: 40px 0px;
+.wrapper {
+  padding: 90px 0px;
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.imageContainer {
+  /* text-align: center; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.aboutImg {
+  max-width: 450px;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutContent h1 {
+  font-size: 22px;
+  font-family: sans-serif;
+  color: var(--primaryText);
+}
+
+.aboutContent h4 {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: var(--themeColor2);
+  margin: 5px 0px;
+}
+
+.aboutContent p {
+  margin: 9px 0px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+  color: var(--primaryText);
+}
+
+@media (min-width: 540px) {
+  .aboutContent h1 {
+    font-size: 28px;
+    font-family: sans-serif;
+    color: var(--primaryText);
+  }
+
+  .aboutContent h4 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: var(--themeColor2);
+    margin: 7px 0px;
+  }
+
+  .aboutContent p {
+    margin: 16px 0px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    color: var(--primaryText);
+  }
+}
+
+@media (min-width: 768px) {
+  .contentWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .imageContainer {
+    flex: 1;
+    position: relative;
+    /* margin: 30px 30px 30px 30px; */
+  }
+  /* 
+  .imageContainer::before {
+    content: "";
+    position: absolute;
+    left: -31px;
+    top: -30px;
+    width: 90%;
+    height: 92%;
+    z-index: -1;
+    background-color: #091220;
+    transition: 0.5s;
+    background-color: #ebf1fa;
+  } */
+  /* 
+  .imageContainer::after {
+    position: absolute;
+    right: -31px;
+    bottom: -30px;
+    width: 90%;
+    height: 92%;
+    z-index: -1;
+    content: "";
+    transition: 0.5s;
+    background-color: #ebf1fa;
+  } */
+
+  .aboutContent {
+    flex: 2;
+  }
+
+  .aboutContent h1 {
+    font-size: 36px;
+    font-family: sans-serif;
+    color: var(--primaryText);
+  }
+
+  .aboutContent h4 {
+    font-size: 24px;
+    font-family: sans-serif;
+    color: var(--themeColor2);
+    margin: 12px 0px;
+  }
+
+  .aboutContent p {
+    margin: 20px 0px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    color: var(--primaryText);
+  }
 }
