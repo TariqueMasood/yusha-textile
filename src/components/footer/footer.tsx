@@ -19,16 +19,16 @@ const Footer = () => {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/about-us">About Us</Link>
+                <Link href="#">About Us</Link>
               </li>
               <li>
-                <Link href="/client">Client</Link>
+                <Link href="#">Client</Link>
               </li>
               <li>
-                <Link href="vacancy">Vacancies</Link>
+                <Link href="#">Vacancies</Link>
               </li>
               <li>
-                <Link href="contact-us">Contact Us</Link>
+                <Link href="#">Contact Us</Link>
               </li>
             </ul>
           </nav>
@@ -91,8 +91,8 @@ const Footer = () => {
                 </Link>
               </p>
               <br />
-              <p>Mon-Fri: 9:00AM – 6:30PM</p>
-              <p>Saturday: 8:30AM – 3:30PM</p>
+              <p>Mon-Fri: 9:00AM - 6:30PM</p>
+              <p>Saturday: 8:30AM - 3:30PM</p>
               <p>Sunday: Closed</p>
             </div>
           </div>
