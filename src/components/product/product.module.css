@@ -1,4 +1,32 @@
-.title {
-  padding: 60px 0px;
-  color: var(--themeColor3);
+.content {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.productImg {
+  width: 100%;
+  height: auto;
+}
+
+.productDetail {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--primaryText);
+  padding: 12px 0px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 540px) {
+  .productDetail {
+    font-size: 16px;
+    padding: 16px 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .productDetail {
+    font-size: 16px;
+    padding: 16px 0px;
+  }
 }

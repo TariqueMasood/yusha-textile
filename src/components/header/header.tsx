@@ -6,7 +6,7 @@ import { CiMenuFries } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";
 import NavList from "../nav-list/nav-list";
-import logo from "../../../public/images/logo-2.png";
+import logo from "../../../public/images/yarn-1-logo.png";
 import Image from "next/image";
 import { MdLocationOn } from "react-icons/md";
 import { BsEnvelopeOpen, BsTelephone } from "react-icons/bs";

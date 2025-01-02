@@ -19,13 +19,13 @@ const Footer = () => {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="#">About Us</Link>
+                <Link href="#">About</Link>
               </li>
               <li>
-                <Link href="#">Client</Link>
+                <Link href="#">Product</Link>
               </li>
               <li>
-                <Link href="#">Vacancies</Link>
+                <Link href="#">People</Link>
               </li>
               <li>
                 <Link href="#">Contact Us</Link>
@@ -33,39 +33,39 @@ const Footer = () => {
             </ul>
           </nav>
           <nav>
-            <h4>Visa</h4>
+            <h4>Product</h4>
             <ul className={styles.list}>
               <li>
-                <Link href="#">Work Visa</Link>
+                <Link href="#">Kota Yarn</Link>
               </li>
               <li>
-                <Link href="#">Visitor Visa</Link>
+                <Link href="#">Monica Yarn</Link>
               </li>
               <li>
-                <Link href="#">Family Visa</Link>
+                <Link href="#">ATY Dyed/Dhupian</Link>
               </li>
               <li>
-                <Link href="#">Business Visa</Link>
+                <Link href="#">Litchi Yarn</Link>
               </li>
               <li>
-                <Link href="#">Skilled Work Visa</Link>
+                <Link href="#">Metallic Yarn</Link>
               </li>
             </ul>
           </nav>
           <nav>
-            <h4>Services</h4>
+            <h4>People</h4>
             <ul className={styles.list}>
               <li>
-                <Link href="#">Visa Consultancy</Link>
+                <Link href="#">Lorem</Link>
               </li>
               <li>
-                <Link href="#">Travel Insurance</Link>
+                <Link href="#">Lorem</Link>
               </li>
               <li>
-                <Link href="#">Work Permits</Link>
+                <Link href="#">Lorem</Link>
               </li>
               <li>
-                <Link href="#">PR Applicants</Link>
+                <Link href="#">Lorem</Link>
               </li>
             </ul>
           </nav>

@@ -1,0 +1,27 @@
+.productContainer {
+  display: grid;
+  margin: 0 auto; /* Center the grid container */
+  max-width: 1200px;
+  gap: 20px;
+}
+
+/* For tablets and small laptops (≥480px to <768px) */
+@media (min-width: 480px) and (max-width: 768px) {
+  .productContainer {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+  }
+}
+
+/* For medium screens (tablets, ≥768px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .productContainer {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+  }
+}
+
+/* For large screens (desktops, ≥1024px) */
+@media (min-width: 1024px) {
+  .productContainer {
+    grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  }
+}
