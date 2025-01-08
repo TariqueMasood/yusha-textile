@@ -6,53 +6,39 @@ import productImg1 from "../../public/images/kota-yarn.jpg";
 import productImg2 from "../../public/images/monica-yarn.jpg";
 import productImg3 from "../../public/images/dhupiane-yarn.jpg";
 import productImg4 from "../../public/images/metallic-yarn.jpg";
-import productImg5 from "../../public/images/metallic-yarn.jpg";
-import productImg6 from "../../public/images/kota-yarn.jpg";
-import productImg7 from "../../public/images/dhupiane-yarn.jpg";
 import { ProductTitle } from "@/components/product-title/product-title";
+import { Product2 } from "@/components/product2/product2";
+import { Ourteam } from "@/components/our-team/our-team";
+import { CustomerBenefit } from "@/components/customer-benefit/customer-benefit";
 
 const productData = [
   {
     id: 1,
     productImage: productImg1,
+    imageTitle: "kota yarn",
     productDetails:
-      "We are capable of sourcing an excellent quality range of Kota yarn. It has been used in warping of Hand looms, Air Jet looms, Jacquard Looms, and Water Jet looms. Kota yarn will be offered at most competitive price. It is available in Semi Dull, Dope Dyed, and Bright Luster.",
+      "(Polyester/Nylon): We believe in sourcing superior quality range of kota yarns, suitable for warping on hand looms, air jet looms, acquard looms, and ater jet looms. Our Kota yarn is available at the most competitive prices and comes in various finishes, including semi dull, dope dyed, and right luster. ",
   },
   {
     id: 2,
     productImage: productImg2,
+    imageTitle: "monika gold yarn",
     productDetails:
-      "We are sourcing top quality Cationic Monica Yarn which is widely used in Bangladesh to produce best quality sarees and other related fabrics, which has high demand in Bangladeshi market. We are capable of getting very unique colors of Monica Yarn, which are well accepted in local market.",
+      "We believe in sourcing premium quality monica gold yarn renowned for its exceptional performance and versatility. It is widely used in manufacturing of sarees.",
   },
   {
     id: 3,
     productImage: productImg3,
+    imageTitle: "litchi yarn",
     productDetails:
-      "This is our speciality yarn which we have developed for our top grade saree/fabric manufacturers. It is a mixture of Cationic Monica and Monofilament to make it lucrative and shining like never before.",
+      "We source this category of yarn which is a novel category of yarn made from Draw Textured Yarn (DTY) or Fully Drawn Yarn (FDY). It represents a conventionally dyed form of these yarns, designed for use in the weft (horizontal threads) of woven fabrics.",
   },
   {
     id: 4,
     productImage: productImg4,
+    imageTitle: "metallic yarn",
     productDetails:
-      "This is a new category of yarn which is made of DTY/FDY. It is conventional dyed form of the DTY/FDY yarn which is being used in weft, different kinds of lusters like Cationic/SD/Bright and various deniers are available.",
-  },
-  {
-    id: 5,
-    productImage: productImg5,
-    productDetails:
-      "Silk polyester has been used in Surat (India) textile market since many years for sarees and dupatta. Mainly it is being used for warping; it is conventional dyed and twisted, which gives it silk type of look as a fabric.",
-  },
-  {
-    id: 6,
-    productImage: productImg6,
-    productDetails:
-      "In Bangladesh people call it Jute Yarn, we have more than hundred shades for ATY/Dhupian in various lusters and deniers which is widely used in Bangladesh. Also we have developed space dyed yarn in ATY/Dhupian and Spray Dyeing Yarn with slub effect.",
-  },
-  {
-    id: 7,
-    productImage: productImg7,
-    productDetails:
-      "Metallic yarns are used in most domains of the textile industry such as circular and flat frame knitting, weaving, hosiery and embroidery. In addition, they also serve as a component in textile accessories, including military regalia, apparel, braids, laces, ribbons, and upholstery.",
+      "Metallic yarns are used in most domains of the textile industry such as circular and flat frame knitting, weaving, hosiery and embroidery. In addition, they also serve as a component in textile accessories, including military regalia, apparel, braids, laces, ribbons, and upholstery",
   },
 ];
 
@@ -62,6 +48,8 @@ export default function Home() {
       <main className={styles.main}>
         <Hero />
         <AboutUs />
+        <Ourteam />
+        <CustomerBenefit />
         <ProductTitle />
         <div className={`container ${styles.productContainer}`}>
           {productData.map((data) => {
@@ -69,11 +57,13 @@ export default function Home() {
               <Product
                 key={data.id}
                 productImage={data.productImage}
+                imageTitle={data.imageTitle}
                 productDetails={data.productDetails}
               />
             );
           })}
         </div>
+        <Product2 />
       </main>
     </div>
   );

@@ -4,9 +4,9 @@ import Image, { StaticImageData } from "next/image";
 
 type ProductProps = {
   productImage: string | StaticImageData;
+  imageTitle: string;
   productDetails: string;
 };
-
 export const Product = (props: ProductProps) => {
   return (
     <div className={styles.contentWrapper}>
@@ -17,6 +17,7 @@ export const Product = (props: ProductProps) => {
             src={props.productImage}
             alt="yarn-image"
           />
+          <div className={styles.imageTitle}>{props.imageTitle}</div>
         </div>
         <div className={styles.productDetail}>{props.productDetails}</div>
       </div>

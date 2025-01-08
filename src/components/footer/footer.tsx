@@ -52,8 +52,8 @@ const Footer = () => {
               </li>
             </ul>
           </nav>
-          <nav>
-            <h4>People</h4>
+          {/* <nav>
+            <h4>Business Office</h4>
             <ul className={styles.list}>
               <li>
                 <Link href="#">Lorem</Link>
@@ -68,32 +68,30 @@ const Footer = () => {
                 <Link href="#">Lorem</Link>
               </li>
             </ul>
-          </nav>
+          </nav> */}
           <div className={styles.contact}>
             <h4>Contact Details</h4>
             <div>
+              <h2 className={styles.director}>Director: Monazir Ahsan</h2>
               <p className={styles.address}>
-                hunsapura near dr.sarfraz <br />
+                Regd. Office: 223, hunsapura near dr.sarfraz <br />
                 kopaganj (mau) U.P IND <br />
                 (275305)
+              </p>
+              <p>
+                Business Office: Above Chasma Ghar, <br /> Sadar Bazar, Near
+                BATA Showroom <br /> Maunath Bhanjan 275101 Distt Mau U.P. INDIA
               </p>
               <br />
               <p>
                 <Link href="tel:+91 9935177951">Phone: +91 9935177951</Link>
               </p>
               <p>
-                <Link href="tel:+91 9695410786">Phone: +91 9695410786</Link>
-              </p>
-              <p>
                 Email:{" "}
-                <Link href="mailto:hellodemo@gmail.com">
-                  hellodemo@gmail.com
+                <Link href="mailto:kartopack.clothing2018@gmail.com">
+                  kartopack.clothing2018@gmail.com
                 </Link>
               </p>
-              <br />
-              <p>Mon-Fri: 9:00AM - 6:30PM</p>
-              <p>Saturday: 8:30AM - 3:30PM</p>
-              <p>Sunday: Closed</p>
             </div>
           </div>
         </div>

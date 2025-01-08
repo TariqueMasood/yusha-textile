@@ -17,10 +17,27 @@
   letter-spacing: 1px;
 }
 
+.imageTitle {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--black);
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 @media (min-width: 540px) {
   .productDetail {
     font-size: 16px;
     padding: 16px 0px;
+  }
+
+  .imageTitle {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--black);
+    margin-top: 9px;
   }
 }
 
@@ -28,5 +45,14 @@
   .productDetail {
     font-size: 16px;
     padding: 16px 0px;
+  }
+
+  .imageTitle {
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--black);
+    margin-top: 9px;
   }
 }

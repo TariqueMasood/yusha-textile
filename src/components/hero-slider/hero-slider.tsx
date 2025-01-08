@@ -9,26 +9,21 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import Image from "next/image";
 import sliderImg1 from "../../../public/images/slider-img1.jpg";
 import sliderImg2 from "../../../public/images/slider-img2.jpg";
-import sliderImg3 from "../../../public/images/slider-img3.jpg";
 
 const slides = [
   {
     id: 1,
-    title: "Slide 1 Title",
-    description: "This is the description for Slide 1.",
+    title: "Kartopack Clothing (p) Ltd.",
+    description:
+      "Exporter, Supplier & Wholesaler of Textile Yarn, Carpet Yarn, Fancy Sarees & Fabrics",
     image: sliderImg1,
   },
   {
     id: 2,
-    title: "Slide 2 Title",
-    description: "This is the description for Slide 2.",
+    title: "Kartopack Clothing (p) Ltd.",
+    description:
+      "Exporter, Supplier & Wholesaler of Textile Yarn, Carpet Yarn, Fancy Sarees & Fabrics",
     image: sliderImg2,
-  },
-  {
-    id: 3,
-    title: "Slide 3 Title",
-    description: "This is the description for Slide 3.",
-    image: sliderImg3,
   },
 ];
 
