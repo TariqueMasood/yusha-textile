@@ -5,15 +5,23 @@
   background-color: var(--backgroundColor);
 }
 
+.cardContainer {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .title {
   text-align: center;
   margin-bottom: 9px;
   font-size: 22px;
+  text-decoration: underline;
 }
 
 .wrapper p {
   font-size: 14px;
-  line-height: 22px;
 }
 
 .unorderList li {
@@ -35,7 +43,6 @@
 
   .wrapper p {
     font-size: 16px;
-    line-height: 26px;
   }
 
   .unorderList li {
@@ -56,9 +63,11 @@
     font-size: 36px;
   }
 
-  .wrapper p {
-    font-size: 18px;
-    line-height: 30px;
+  .titleContent {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    line-height: 1.5;
   }
 
   .unorderList li {

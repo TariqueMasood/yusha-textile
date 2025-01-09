@@ -1,6 +1,8 @@
 .wrapper {
   padding: 30px 0px;
   background-color: var(--backgroundColor);
+  color: var(--primaryText);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contentWrapper {
@@ -27,7 +29,6 @@
 .aboutContent h1 {
   font-size: 22px;
   font-family: sans-serif;
-  color: var(--primaryText);
 }
 
 .aboutContent h4 {
@@ -40,9 +41,7 @@
 .aboutContent p {
   margin: 9px 0px;
   font-size: 14px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 1px;
-  color: var(--primaryText);
 }
 
 @media (min-width: 540px) {
@@ -53,7 +52,6 @@
   .aboutContent h1 {
     font-size: 28px;
     font-family: sans-serif;
-    color: var(--primaryText);
   }
 
   .aboutContent h4 {
@@ -66,9 +64,8 @@
   .aboutContent p {
     margin: 16px 0px;
     font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
-    color: var(--primaryText);
+    line-height: 1.5;
   }
 }
 
@@ -122,7 +119,6 @@
   .aboutContent h1 {
     font-size: 36px;
     font-family: sans-serif;
-    color: var(--primaryText);
   }
 
   .aboutContent h4 {
@@ -135,8 +131,7 @@
   .aboutContent p {
     margin: 20px 0px;
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
-    color: var(--primaryText);
+    line-height: 1.5;
   }
 }

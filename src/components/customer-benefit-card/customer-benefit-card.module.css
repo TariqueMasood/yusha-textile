@@ -1,0 +1,61 @@
+.wrapper {
+  max-width: 270px;
+  width: 100%;
+  height: auto;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--whiteColor);
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all ease-in-out 0.4s;
+  cursor: pointer;
+  color: var(--primaryText);
+}
+
+.wrapper:hover {
+  transform: scale(1.1);
+}
+
+.cardIcon {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #fceef3;
+  color: #ff689b;
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.cardIcon span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+.title {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 9px;
+}
+
+.content {
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .title {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .content {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
