@@ -7,8 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import Image from "next/image";
-import sliderImg1 from "../../../public/images/slider-img1.jpg";
-import sliderImg2 from "../../../public/images/slider-img2.jpg";
+import sliderImg1 from "../../../public/images/hero-banner.jpg";
 
 const slides = [
   {
@@ -23,7 +22,7 @@ const slides = [
     title: "Kartopack Clothing (p) Ltd.",
     description:
       "Exporter, Supplier & Wholesaler of Textile Yarn, Carpet Yarn, Fancy Sarees & Fabrics",
-    image: sliderImg2,
+    image: sliderImg1,
   },
 ];
 
@@ -45,8 +44,6 @@ const HeroSlider = () => {
                 className={styles.sliderImg}
                 src={slide.image}
                 alt={slide.title}
-                layout="fill"
-                objectFit="cover"
                 priority // Ensures images load quickly
               />
               {/* Overlay for Text */}

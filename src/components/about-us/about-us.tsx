@@ -2,20 +2,13 @@ import React from "react";
 import styles from "./about-us.module.css";
 import Image from "next/image";
 
-import aboutImg from "../../../public/images/about-img-1.jpg";
+import aboutImg from "../../../public/images/about-image.jpg";
 
 export const AboutUs = () => {
   return (
     <div className={styles.wrapper}>
       <div className="container">
         <div className={styles.contentWrapper}>
-          <div className={styles.imageContainer}>
-            <Image
-              className={styles.aboutImg}
-              src={aboutImg}
-              alt="about-image"
-            />
-          </div>
           <div className={styles.aboutContent}>
             <h1>About Us</h1>
             <h4>One star export house</h4>
@@ -49,6 +42,9 @@ export const AboutUs = () => {
               yarn breakage during weaving and kni ng opera ons. We con nuously
               expand our product offerings to meet market demands.
             </p>
+          </div>
+          <div className={styles.aboutImg}>
+            <Image src={aboutImg} alt="about-image" />
           </div>
         </div>
       </div>
