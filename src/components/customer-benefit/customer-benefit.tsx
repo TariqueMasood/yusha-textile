@@ -18,21 +18,21 @@ const customerBenefitData = [
     customerImage: <IoStopwatchOutline />,
     customerTitle: "Reliability & Consistency",
     customerContent:
-      "We aim to build a reliable and trustworthy environment with our customers through con nuous updates and transparent communica on regarding product readiness, pricing, quality, and delivery.",
+      "We aim to build a reliable and trustworthy environment with our customers through continuous updates and transparent communication regarding product readiness, pricing, quality, and delivery.",
   },
   {
     id: 3,
     customerImage: <IoPricetagOutline />,
     customerTitle: "Competitive Pricing",
     customerContent:
-      "We pre-plan our produc on program by engaging in forecas ng and              trend analysis to offer you the best prices in the market without              compromising on quality standards.",
+      "We pre-plan our production program by engaging in forecasting and trend analysis to offer you the best prices in the market without compromising on quality standards.",
   },
   {
     id: 4,
     customerImage: <AiOutlineCheckCircle />,
     customerTitle: "Quality Assurance",
     customerContent:
-      "We follow rigorous steps and protocols to meet high-standard             product quality. Our quality assurance process includes: raw              material inspec on, produc on process control, tes ng, employee              skill training, final product inspec on, customer feedback and              complaint handling.",
+      "We follow rigorous steps and protocols to meet high-standard             product quality. Our quality assurance process includes: raw              material inspection, production process control, testing, employee skill training, final product inspection, customer feedback and complaint handling.",
   },
 ];
 
@@ -43,9 +43,9 @@ export const CustomerBenefit = () => {
         <h3 className={styles.title}>Customer Benefits</h3>
         <p className={styles.titleContent}>
           When our customer&apos;s satisfaction blooms, so does our joy.At
-          Yusha, your sa sfac on is our priority, and we are dedicated to going
-          above and beyond to ensure that you have a posi ve and rewarding
-          experience with us.
+          Yusha, your satisfaction on is our priority, and we are dedicated to
+          going above and beyond to ensure that you have a positive and
+          rewarding experience with us.
         </p>
         <div className={styles.cardContainer}>
           {customerBenefitData.map((data) => {

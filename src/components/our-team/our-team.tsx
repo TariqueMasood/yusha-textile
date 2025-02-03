@@ -8,12 +8,12 @@ export const Ourteam = () => {
         <h3 className={styles.title}>Our Team</h3>
         <p>
           We comprise a team of individuals with backgrounds in management,
-          engineering, and marke ng.
+          engineering, and marketing.
         </p>
         <p>
-          We harness the collec ve knowledge and experience of our team to
-          develop world-class products, strategies our market targets, and ul
-          mately deliver a seamless customer experience.
+          We harness the collective knowledge and experience of our team to
+          develop world-class products, strategies our market targets, and
+          ultimately deliver a seamless customer experience.
         </p>
       </div>
     </div>
